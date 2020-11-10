@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+// Logger record time
 func Logger() HandlerFunc {
 	return func(c *Context) {
 		t := time.Now()
